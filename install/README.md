@@ -1,9 +1,9 @@
-# Engram Install README
+# Engram-2021 Install README
 
-You can install the Engram v2.0 layout on macOS, Windows, and Linux operating systems using [Keyman](https://keyman.com/keyboards/engram)
+You can install the Engram-2021 layout on macOS, Windows, and Linux operating systems using [Keyman](https://keyman.com/keyboards/engram_2021)
 (and [try it out online](https://keymanweb.com/#en,Keyboard_engram)).
 
-This folder contains alternative approaches for installing native Engram keymaps for different operating systems, thanks to the kind contributions of Engram users.
+This folder contains alternative approaches for installing native Engram-2021 keymaps for different operating systems, thanks to the kind contributions of Engram-2021 users.
 
 Special thanks to the following contributors for their pull requests:
 

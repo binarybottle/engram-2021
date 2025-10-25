@@ -1,30 +1,28 @@
-# Arno's Engram keyboard layout
+# Arno's Engram-2021 keyboard layout
 
-Engram v1.0??? ("Engram") is a key layout optimized for comfortable and efficient touch typing in English 
-created by [Arno Klein](https://binarybottle.com), 
-with [open source code](https://github.com/binarybottle/engram) to create other optimized key layouts.
-You can install the Engram v2.0 layout on [Windows, macOS, and Linux](https://keyman.com/keyboards/engram)
-or [try it out online](https://keymanweb.com/#en,Keyboard_engram).
-An article is under review (see the [preprint](https://www.preprints.org/manuscript/202103.0287/v1) for an earlier (and superceded) version (v1.3) with description).
+Engram-2021 is the first Engram key layout optimized for comfortable and efficient touch typing in English 
+created by [Arno Klein](https://arnoklein.info), superceded by the [Engram-en layout](https://engram-layouts.xyz/engram-en).
+The old and new [open source code](https://github.com/binarybottle/engram) is used to create new optimized key layouts.
 
-[See [here](https://github.com/binarybottle/engram-es) for the Spanish version, engram-es]
+You can install the Engram-2021 layout on [Windows, macOS, and Linux](https://keyman.com/keyboards/engram_2021)
+or [try it out online](https://keymanweb.com/#en,Keyboard_engram_2021).
 
 Letters are optimally arranged according to ergonomics factors that promote reduction of lateral finger movements and more efficient typing of high-frequency letter pairs. The most common punctuation marks are logically grouped together in the middle columns and numbers are paired with mathematical and logic symbols (shown as pairs of default and Shift-key-accessed characters).
 
 See below for a full description and comparisons with other key layouts.
 
 ### Standard diagonal keyboard (default and Shift-key layers)
-![Standard keyboard](https://github.com/binarybottle/engram/blob/master/assets/engram-800px.png?raw=true)
+![Standard keyboard](https://github.com/binarybottle/engram/engram-2021/blob/master/assets/engram-800px.png?raw=true)
 
 ### "Ergonomic" orthonormal keyboard (default and Shift-key layers)
-![Orthonormal keyboard](https://github.com/binarybottle/engram/blob/master/assets/engram-ergo-squeezed-800px.png?raw=true)
+![Orthonormal keyboard](https://github.com/binarybottle/engram/engram-2021/blob/master/assets/engram-ergo-squeezed-800px.png?raw=true)
 
          [{ 1| 2= 3~ 4+  5<  6>  7^ 8& 9% 0* ]} /\
             bB yY oO uU  '(  ")  lL dD wW vV zZ #$ @`
             cC iI eE aA  ,;  .:  hH tT sS nN qQ 
             gG xX jJ kK  -_  ?!  rR mM fF pP
             
-Letter frequencies (Norvig, 2012), showing that the Engram layout emphasizes keys in the home row:
+Letter frequencies (Norvig, 2012), showing that the Engram-2021 layout emphasizes keys in the home row:
 
           B   Y   O   U           L   D   W   V    Z
           C   I   E   A           H   T   S   N    Q
@@ -40,7 +38,7 @@ Letter frequencies (Norvig, 2012), showing that the Engram layout emphasizes key
 
 # Contents
 1. [Why a new key layout?](#why)
-2. [How does Engram compare with other key layouts?](#scores)
+2. [How does Engram-2021 compare with other key layouts?](#scores)
 3. [Guiding criteria](#criteria)
 4. [Summary of steps and results](#summary)
 
@@ -75,25 +73,23 @@ and have primarily relied on Colemak for the last 10 years.
     - *same-row, adjacent finger transitions are easy and comfortable*
     - *little-to-index finger rolls are easy and comfortable*
 
-While I used ergonomic principles outlined below and the accompanying code to help generate the Engram layout,
-I also relied on massive bigram frequency data for the English language. 
-if one were to follow the procedure below and use a different set of bigram frequencies for another language or text corpus,
-they could create a variant of the Engram layout, say "Engram-French", better suited to the French language.
+While I used ergonomic principles outlined below and the accompanying code to help generate the Engram-2021 layout, I also relied on massive bigram frequency data for the English language. 
+If one were to follow the procedure below and use a different set of bigram frequencies for another language or text corpus, they could create a variant of the Engram-2021 layout, say "Engram-French", better suited to the French language.
     
 **Why "Engram"?** <br>
-The name is a pun, referring both to "n-gram", letter permutations and their frequencies that are used to compute the Engram layout, and "engram", or memory trace, the postulated change in neural tissue to account for the persistence of memory, as a nod to my attempt to make this layout easy to remember.
+The name is a pun, referring both to "n-gram", letter permutations and their frequencies that are used to compute the Engram-2021 layout, and "engram", or memory trace, the postulated change in neural tissue to account for the persistence of memory, as a nod to my attempt to make this layout easy to remember.
 
-## How does Engram compare with other key layouts? <a name="scores">
+## How does Engram-2021 compare with other key layouts? <a name="scores">
 
-Below we compare the Engram layout with different prominent key layouts (Colemak, Dvorak, QWERTY, etc.) for some large, representative, publicly available data (all text sources are listed below and available on [GitHub](https://github.com/binarybottle/text_data)).
+Below we compare the Engram-2021 layout with different prominent key layouts (Colemak, Dvorak, QWERTY, etc.) for some large, representative, publicly available data (all text sources are listed below and available on [GitHub](https://github.com/binarybottle/text_data)).
  
-#### Engram Scoring Model scores (x100) for layouts, based on publicly available text data
+#### Engram-2021 Scoring Model scores (x100) for layouts, based on publicly available text data
  
-Engram scores higher for all text and software sources than all other layouts according to its own scoring model (higher scores are better):
+Engram-2021 scores higher for all text and software sources than all other layouts according to its own scoring model (higher scores are better):
     
 | Layout | Google bigrams | Alice | Memento | Tweets_100K | Tweets_20K | Tweets_MASC | Spoken_MASC | COCA_blogs | iweb | Monkey | Coder | Rosetta |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Engram | 62.48 | 61.67 | 62.30 | 63.03 | 60.28 | 62.49 | 61.56 | 62.19 | 62.38 | 62.23 | 62.51 | 62.48 |
+| Engram-2021 | 62.48 | 61.67 | 62.30 | 63.03 | 60.28 | 62.49 | 61.56 | 62.19 | 62.38 | 62.23 | 62.51 | 62.48 |
 | Halmak | 62.40 | 61.60 | 62.23 | 62.93 | 60.26 | 62.43 | 61.51 | 62.13 | 62.31 | 62.16 | 62.46 | 62.40 |
 | Hieamtsrn | 62.39 | 61.64 | 62.27 | 62.99 | 60.27 | 62.47 | 61.53 | 62.16 | 62.35 | 62.20 | 62.49 | 62.39 |
 | Norman | 62.35 | 61.57 | 62.20 | 62.86 | 60.21 | 62.39 | 61.47 | 62.08 | 62.27 | 62.12 | 62.40 | 62.35 |
@@ -114,11 +110,11 @@ Engram scores higher for all text and software sources than all other layouts ac
     
 > The optimal layout score is based on a weighted calculation that factors in the distance your fingers moved (33%), how often you use particular fingers (33%), and how often you switch fingers and hands while typing (34%).
     
-Engram scores highest for 7 of the 9 and second highest for 2 of the 9 text sources; Engram scores third and fourth highest for the two software sources, "Coder" and "Rosetta" (higher scores are better):
+Engram-2021 scores highest for 7 of the 9 and second highest for 2 of the 9 text sources; Engram-2021 scores third and fourth highest for the two software sources, "Coder" and "Rosetta" (higher scores are better):
 
 | Layout | Alice in Wonderland | Memento screenplay | 100K tweets | 20K tweets | MASC tweets | MASC spoken | COCA blogs | iweb | Monkey | Coder | Rosetta |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Engram    | 70.13 | 57.16 | 64.64 | 58.58 | 60.24 | 64.39 | 69.66 | 68.25 | 67.66 | 46.81 | 47.69 |
+| Engram-2021    | 70.13 | 57.16 | 64.64 | 58.58 | 60.24 | 64.39 | 69.66 | 68.25 | 67.66 | 46.81 | 47.69 |
 | Halmak    | 66.25 | 55.03 | 60.86 | 55.53 | 57.13 | 62.32 | 67.29 | 65.50 | 64.75 | 45.68 | 47.60 |
 | Hieamtsrn | 69.43 | 56.75 | 64.40 | 58.95 | 60.47 | 64.33 | 69.93 | 69.15 | 68.30 | 46.01 | 46.48 | 
 | Colemak Mod-DH | 65.74 | 54.91 | 60.75 | 54.94 | 57.15 | 61.29 | 67.12 | 65.98 | 64.85 | 47.35 | 48.50 |
@@ -137,13 +133,13 @@ Engram scores highest for 7 of the 9 and second highest for 2 of the 9 text sour
 
 #### Keyboard Layout Analyzer consecutive same-finger key presses
 
-KLA (and other) distance measures may not accurately reflect natural typing, so below is a more reliable measure of one source of effort and strain -- the tally of consecutive key presses with the same finger for different keys. Engram scores lowest for 6 of the 11 texts, second lowest for two texts, and third or fifth lowest for three texts, two of which are software text sources (lower scores are better):
+KLA (and other) distance measures may not accurately reflect natural typing, so below is a more reliable measure of one source of effort and strain -- the tally of consecutive key presses with the same finger for different keys. Engram-2021 scores lowest for 6 of the 11 texts, second lowest for two texts, and third or fifth lowest for three texts, two of which are software text sources (lower scores are better):
 
-KLA (and other) distance measures may not accurately reflect natural typing, so below is a more reliable measure of one source of effort and strain -- the tally of consecutive key presses with the same finger for different keys. Engram scores lowest for 6 of the 9 and second or third lowest for 3 of the 9 text sources, and third or fifth lowest for the two software text sources (lower scores are better):
+KLA (and other) distance measures may not accurately reflect natural typing, so below is a more reliable measure of one source of effort and strain -- the tally of consecutive key presses with the same finger for different keys. Engram-2021 scores lowest for 6 of the 9 and second or third lowest for 3 of the 9 text sources, and third or fifth lowest for the two software text sources (lower scores are better):
 
 | Layout | Alice | Memento | Tweets_100K | Tweets_20K | Tweets_MASC | Spoken_MASC | COCA_blogs | iweb | Monkey | Coder | Rosetta |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Engram | 216 | 11476 | 320406 | 120286 | 7728 | 3514 | 137290 | 1064640 | 37534 | 125798 | 5822 |
+| Engram-2021 | 216 | 11476 | 320406 | 120286 | 7728 | 3514 | 137290 | 1064640 | 37534 | 125798 | 5822 |
 | Halmak | 498 | 13640 | 484702 | 170064 | 11456 | 5742 | 268246 | 2029634 | 68858 | 144790 | 5392 |
 | Hieamtsrn | 244 | 12096 | 311000 | 119490 | 8316 | 3192 | 155674 | 1100116 | 40882 | 158698 | 7324 |
 | Norman | 938 | 20012 | 721602 | 213890 | 16014 | 9022 | 595168 | 3885282 | 135844 | 179752 | 7402 |
@@ -160,12 +156,12 @@ KLA (and other) distance measures may not accurately reflect natural typing, so 
 ---
   
 #### Inward roll frequencies 
-Here we tally the number of bigrams (in billions of instances from Norvig's analysis of Google data) that engage inward rolls (little-to-index sequences), within the four columns of one hand, or any column across two hands. Engram scores second highest for 32 keys and highest for 24 keys, where the latter ensures that we are comparing Engram's letters with letters in other layouts (higher scores are better):
+Here we tally the number of bigrams (in billions of instances from Norvig's analysis of Google data) that engage inward rolls (little-to-index sequences), within the four columns of one hand, or any column across two hands. Engram-2021 scores second highest for 32 keys and highest for 24 keys, where the latter ensures that we are comparing Engram-2021's letters with letters in other layouts (higher scores are better):
     
 Total inward roll frequency in billions
 
     Layout             32 / 24 keys
-    Engram:          4.64 / 4.51
+    Engram-2021:          4.64 / 4.51
     Halmak:          4.59 / 4.25
     Hieamtsrn:       4.69 / 4.16
     Norman:          3.99 / 3.61
@@ -184,7 +180,7 @@ Total inward roll frequency in billions
     
 | Layout | Year | Website |
 | --- | --- | --- |
-| Engram | 2021 | https://engram.dev |
+| Engram-2021 | 2021 | https://engram-layouts.xyz/engram-2021 |
 | [Halmak 2.2](https://keyboard-design.com/letterlayout.html?layout=halmak-2-2.en.ansi) | 2016 | https://github.com/MadRabbit/halmak |
 | [Hieamtsrn](https://www.keyboard-design.com/letterlayout.html?layout=hieamtsrn.en.ansi) | 2014 | https://mathematicalmulticore.wordpress.com/the-keyboard-layout-project/#comment-4976 |
 | [Colemak Mod-DH](https://keyboard-design.com/letterlayout.html?layout=colemak-mod-DH-full.en.ansi) | 2014 | https://colemakmods.github.io/mod-dh/ | 
@@ -232,7 +228,7 @@ Douglas, Ian. (2021, March 28). Keyboard Layout Analysis: Creating the Corpus, B
     10. Assign the most common punctuation to keys in the middle of the keyboard.
     11. Assign easy-to-remember symbols to the Shift-number keys.
     
-### Factors used to compute the Engram layout <a name="factors">
+### Factors used to compute the Engram-2021 layout <a name="factors">
   - **N-gram letter frequencies** <br>
     
     [Peter Norvig's analysis](http://www.norvig.com/mayzner.html) of data from Google's book scanning project
@@ -382,7 +378,7 @@ If we relax the above fixed initializations and permit further exchange of lette
     14. Top sides and lower center
     15. Repeat 1-14
     
-### **Engram Scoring Model**
+### **Engram-2021 Scoring Model**
     
 Our optimization algorithm finds every permutation of a given set of letters, maps these letter permutations to a set of keys, and ranks these letter-key mappings according to a score reflecting ease of typing key pairs and frequency of letter pairs (bigrams). The score is the average of the scores for all possible bigrams in this arrangement. The score for each bigram is a product of the frequency of occurrence of that bigram, the frequency of each of the bigram’s characters, and flow, strength (and optional speed) factors for the key pair.
     
@@ -547,7 +543,7 @@ The numbers are flanked to the left and right by [square brackets], and {curly b
 
 The three remaining keys in many common keyboards (flanking the upper right hand corner Backspace key) are displaced in special keyboards, such as the Kinesis Advantage and Ergodox. For the top right key, we will assign the forward slash and backslash: / \\. For the remaining two keys, we will assign two symbols that in modern usage have significance in social media: the hash/pound sign and the "at sign". The hash or hashtag identifies digital content on a specific topic (the Shift key accesses the dollar sign). The "at sign" identifies a location or affiliation (such as in email addresses) and acts as a "handle" to identify users in popular social media platforms and online forums.
 
-The resulting Engram layout:
+The resulting Engram-2021 layout:
 
          [{ 1| 2= 3~ 4+  5<  6>  7^ 8& 9% 0* ]} /\
             bB yY oO uU  '(  ")  lL dD wW vV zZ #$ @`
