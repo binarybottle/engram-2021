@@ -50,7 +50,7 @@ ever since I worked on an old DEC workstation at the MIT Media Lab while composi
 my thesis back in the 1990s.
 I have experimented with a wide variety of human interface technologies over the years --
 voice dictation, one-handed keyboard, keyless keyboard, foot mouse, and ergonomic keyboards 
-like the Kinesis Advantage and [Ergodox](https://configure.ergodox-ez.com/ergodox-ez/layouts/APXBR/latest/0) keyboards with different key switches.
+like the Kinesis Advantage and Ergodox keyboards with different key switches.
 While these technologies can significantly improve comfort and reduce strain, 
 an optimized key layout can only help when typing on ergonomic or standard keyboards. 
 
