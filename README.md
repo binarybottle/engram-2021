@@ -12,10 +12,10 @@ Letters are optimally arranged according to ergonomics factors that promote redu
 See below for a full description and comparisons with other key layouts.
 
 ### Standard diagonal keyboard (default and Shift-key layers)
-![Standard keyboard](https://github.com/binarybottle/engram/engram-2021/blob/master/assets/engram-800px.png?raw=true)
+![Standard keyboard](https://github.com/binarybottle/engram-2021/blob/master/assets/engram-800px.png?raw=true)
 
 ### "Ergonomic" orthonormal keyboard (default and Shift-key layers)
-![Orthonormal keyboard](https://github.com/binarybottle/engram/engram-2021/blob/master/assets/engram-ergo-squeezed-800px.png?raw=true)
+![Orthonormal keyboard](https://github.com/binarybottle/engram-2021/blob/master/assets/engram-ergo-squeezed-800px.png?raw=true)
 
          [{ 1| 2= 3~ 4+  5<  6>  7^ 8& 9% 0* ]} /\
             bB yY oO uU  '(  ")  lL dD wW vV zZ #$ @`
