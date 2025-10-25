@@ -2,7 +2,7 @@
 
 Engram-2021 is the first Engram key layout optimized for comfortable and efficient touch typing in English 
 created by [Arno Klein](https://arnoklein.info), superceded by the [Engram-en layout](https://engram-layouts.xyz/engram-en).
-The old and new [open source code](https://github.com/binarybottle/engram) is used to create new optimized key layouts.
+The deprecated old as well as new open source software can be used to create new optimized key layouts.
 
 You can install the Engram-2021 layout on [Windows, macOS, and Linux](https://keyman.com/keyboards/engram_2021)
 or [try it out online](https://keymanweb.com/#en,Keyboard_engram_2021).
