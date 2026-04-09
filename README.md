@@ -8,14 +8,16 @@ Letters are optimally arranged according to ergonomics factors that promote redu
 
 ## Version history
 
-All current and future Engram layouts live in the [engram repo](https://github.com/binarybottle/engram).
+All current and future Engram layouts live in the [engram repo](https://github.com/binarybottle/engram). Engram layouts use [CalVer](https://calver.org/) versioning (YYYY.MM.DD).
 
 | Version | Date | Layout | Notes |
 |---------|------|--------|-------|
 | Engram v1.2 | 2021-02-08 | — | Early prototype |
 | Engram v1.3 | 2021-03-20 | — | Refined scoring parameters |
-| **Engram** (v2.0) | 2021-12-18 | `BYOU LDWV` / `CIEA HTSN` / `GXJK RMFP` | Final release of the original algorithm ([this repo](https://github.com/binarybottle/engram-2021)) |
+| **Engram** (v2.0) | 2021-12-18 | `BYOU LDWV` / `CIEA HTSN` / `GXJK RMFP` | Original algorithm ([this engram-2021 repo](https://github.com/binarybottle/engram-2021)) |
+| **Engram-es** (v2.0) | 2021-09-30 |  | Spanish layout, original algorithm ([engram-es-2021 repo](https://github.com/binarybottle/engram-es-2021)) |
 | **Engram-en** v2025.10.31 | 2025-10-31 | `BYOU DNGV` / `HIAE TRSC` / `KJXW MLFP` | New approach: crowdsourced preferences + MOO |
+| **Engram-es** v2025.10.31 | 2025-10-31 | Spanish layout | Same new approach, Spanish n-grams |
 
 ### Standard diagonal keyboard (default and Shift-key layers)
 
